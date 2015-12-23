@@ -1,0 +1,7 @@
+Testing Procedure
+========================================================
+
+C001 A Decimal expression.
+Input: 0
+Expected output: 0
+Passed !
