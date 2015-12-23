@@ -1,0 +1,180 @@
+﻿<?xml version="1.0"?>
+<!-- Standard test cases for EvalExpr -->
+<test-case-definitions>
+
+<test-case>
+    <id>C001</id>
+    <description>A Decimal expression.</description>
+    <input>0</input>
+    <output>0</output>
+</test-case>
+
+<test-case>
+    <id>C002</id>
+    <description>A Decimal expression.</description>
+    <input>(10)</input>
+    <output>10</output>
+</test-case>
+
+<test-case>
+    <id>C003</id>
+    <description>A Predefined function(sin) expression.</description>
+    <input>sin(1)</input>
+    <output>0.8414709848078965066525023216303</output>
+</test-case>
+
+<test-case>
+    <id>C004</id>
+    <description>A Predefined function(cos) expression.</description>
+    <input>cos(1)</input>
+    <output>0.54030230586813971740093660744298</output>
+</test-case>
+
+<test-case>
+    <id>C005</id>
+    <description>A Predefined function(max) expression.</description>
+    <input>max(1,2,3,4,5,6,7,8,9)</input>
+    <output>9</output>
+</test-case>
+
+<test-case>
+    <id>C006</id>
+    <description>A Predefined function(min) expression.</description>
+    <input>min(1,2,3,4,5,6,7,8,9)</input>
+    <output>1</output>
+</test-case>
+
+<test-case>
+    <id>C007</id>
+    <description>A negative Decimal expression.</description>
+    <input>5--1</input>
+    <output>6</output>
+</test-case>
+
+<test-case>
+    <id>C008</id>
+    <description>A arithmetic operator(power) expression.</description>
+    <input>3^2^2</input>
+    <output>81</output>
+</test-case>
+
+<test-case>
+    <id>C009</id>
+    <description>A arithmetic operator(multiply) expression.</description>
+    <input>5*5*5</input>
+    <output>125</output>
+</test-case>
+
+<test-case>
+    <id>C010</id>
+    <description>A arithmetic operator(Divide) expression.</description>
+    <input>2/3</input>
+    <output>0.666666666666666666666666</output>
+</test-case>
+
+<test-case>
+    <id>C011</id>
+    <description>A arithmetic operator(plus) expression.</description>
+    <input>1+2+3+4+5</input>
+    <output>15</output>
+</test-case>
+
+<test-case>
+    <id>C012</id>
+    <description>A arithmetic operator(subtract) expression.</description>
+    <input>5-3-1</input>
+    <output>1</output>
+</test-case>
+  
+<test-case>
+    <id>C013</id>
+    <description>A Query operator and compare expression.</description>
+    <input>(3>2)?99:1</input>
+    <output>99</output>
+</test-case>
+
+<test-case>
+    <id>C014</id>
+    <description>A Query operator and compare expression.</description>
+    <input>(1&lt;>1)?99:1</input>
+    <output>1</output>
+</test-case>
+
+<test-case>
+    <id>C015</id>
+    <description>A Query operator and compare expression..</description>
+    <input>(1&lt;10)?99:1</input>
+    <output>99</output>
+</test-case>
+
+<test-case>
+    <id>C016</id>
+    <description>A Query operator and compare expression.</description>
+    <input>(1&lt;=1)?99:1</input>
+    <output>99</output>
+</test-case>
+
+<test-case>
+    <id>C017</id>
+    <description>A Query operator and compare expression.</description>
+    <input>1>10?99:1</input>
+    <output>1</output>
+</test-case>
+
+<test-case>
+    <id>C018</id>
+    <description>A Query operator and compare expression.</description>
+    <input>(10>=10)?99:1</input>
+    <output>99</output>
+</test-case>
+
+<test-case>
+    <id>C019</id>
+    <description>A Query operator and logic expression.</description>
+    <input>!true?99:1</input>
+    <output>1</output>
+</test-case>
+
+<test-case>
+    <id>C0020</id>
+    <description>A Query operator and logic expression.</description>
+    <input>true&amp;false?99:1</input>
+    <output>1</output>
+</test-case>
+
+<test-case>
+    <id>C021</id>
+    <description>A Query operator and logic expression.</description>
+    <input>true|false?99:1</input>
+    <output>99</output>
+</test-case>
+
+<test-case>
+    <id>C022</id>
+    <description>A Query operator and predefined function expression.</description>
+    <input>sin(3.14/2)>1?99:1</input>
+    <output>1</output>
+</test-case>
+
+<test-case>
+    <id>C023</id>
+    <description>A Query operator and predefined function expression.</description>
+    <input>cos(0)>=0?99:1</input>
+    <output>99</output>
+</test-case>
+
+<test-case>
+    <id>C024</id>
+    <description>A Query operator and predefined function expression.</description>
+    <input>max(1,2,3,4,5,6,7)>8?99:1</input>
+    <output>1</output>
+</test-case>
+
+<test-case>
+    <id>C025</id>
+    <description>A Query operator and predefined function expression.</description>
+    <input>min(1,2,3,4,5,6,7)&lt;8?99:1</input>
+    <output>99</output>
+</test-case>
+
+</test-case-definitions>
