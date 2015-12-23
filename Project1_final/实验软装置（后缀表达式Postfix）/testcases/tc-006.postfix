@@ -1,0 +1,7 @@
+The input is invalid, and there are totally 6 error 
+1: Syntax error, there is missing a left operator at position1
+2: Syntax error, there are 4 extra blank space between position5 and position9
+3: Lexical error, the character(/) at position10 is invalid input, replace it with +/-
+4: Syntax error, there is missing a number between position11(/) and position12(-)
+5: Syntax error, there should be +/- between position15(8) and position16(8)
+6: Syntax error, there are 2 extra blank space between position17 and position19

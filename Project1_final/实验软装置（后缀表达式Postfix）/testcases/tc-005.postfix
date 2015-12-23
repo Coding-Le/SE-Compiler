@@ -1,0 +1,5 @@
+The input is invalid, and there are totally 4 error 
+1: Syntax error, there is missing a number between position2(-) and position3(+)
+2: Syntax error, there should be +/- between position6(4) and position7(5)
+3: Lexical error, the character(*) at position9 is invalid input, replace it with +/-
+4: Syntax error, there is missing a right operator at position13
